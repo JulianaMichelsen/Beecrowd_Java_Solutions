@@ -1,10 +1,10 @@
+package iniciante;
+
 import java.io.IOException;
 import java.util.Scanner;
 
-import static java.lang.Math.abs;
 
-
-public class bee1013 {
+public class bee1007 {
 
     public static void main(String[] args) throws IOException {
 
@@ -13,17 +13,12 @@ public class bee1013 {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
         int C = scanner.nextInt();
+        int D = scanner.nextInt();
 
-        int maior = Maior(A,B);
-        maior = Maior(maior,C);
+        int diferenca = (A * B - C * D);
 
-        System.out.println(maior + " eh o maior");
+        System.out.println("DIFERENCA = " + diferenca);
 
         scanner.close();
-    }
-
-    public static int Maior(int x, int y){
-        return (x+y+abs(x-y))/2;
-
     }
 }

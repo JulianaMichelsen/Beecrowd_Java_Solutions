@@ -1,22 +1,22 @@
+package iniciante;
+
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Locale;
 
 
-public class bee1006 {
+public class bee1016 {
 
     public static void main(String[] args) throws IOException {
 
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
-        double A = scanner.nextDouble();
-        double B = scanner.nextDouble();
-        double C = scanner.nextDouble();
+        int kmHora = scanner.nextInt();
 
-        double media = ((A * 2) + (B * 3) + (C * 5)) / 10.0;
+        int minutos = kmHora * 2;
 
-        System.out.printf("MEDIA = %.1f%n", media);
+        System.out.println(minutos+" minutos");
 
         scanner.close();
     }

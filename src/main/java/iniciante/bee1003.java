@@ -1,8 +1,10 @@
+package iniciante;
+
 import java.io.IOException;
 import java.util.Scanner;
 
 
-public class bee1001 {
+public class bee1003 {
 
     public static void main(String[] args) throws IOException {
 
@@ -12,7 +14,7 @@ public class bee1001 {
 
         int X = A + B;
 
-        System.out.println("X = " + X);
+        System.out.println("SOMA = " + X);
 
         scanner.close();
     }

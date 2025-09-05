@@ -1,20 +1,23 @@
+package iniciante;
+
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Locale;
 
 
-public class bee1016 {
+public class bee1002 {
 
     public static void main(String[] args) throws IOException {
 
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
-        int kmHora = scanner.nextInt();
+        double pi = 3.14159;
+        double raio = scanner.nextDouble();
 
-        int minutos = kmHora * 2;
+        double area = pi * (raio * raio);
 
-        System.out.println(minutos+" minutos");
+        System.out.printf("A=%.4f%n", area);
 
         scanner.close();
     }

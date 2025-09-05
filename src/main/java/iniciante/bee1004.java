@@ -1,21 +1,20 @@
+package iniciante;
+
 import java.io.IOException;
 import java.util.Scanner;
 
 
-public class bee1007 {
+public class bee1004 {
 
     public static void main(String[] args) throws IOException {
 
         Scanner scanner = new Scanner(System.in);
-
         int A = scanner.nextInt();
         int B = scanner.nextInt();
-        int C = scanner.nextInt();
-        int D = scanner.nextInt();
 
-        int diferenca = (A * B - C * D);
+        int X = A * B;
 
-        System.out.println("DIFERENCA = " + diferenca);
+        System.out.println("PROD = " + X);
 
         scanner.close();
     }
