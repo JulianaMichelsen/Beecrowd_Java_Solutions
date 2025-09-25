@@ -28,7 +28,6 @@ public class bee1052 {
             case 12 -> month = "December";
             default -> month = "Invalid month";
         }
-
         System.out.println(month);
         scanner.close();
     }
