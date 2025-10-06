@@ -10,7 +10,6 @@ package iniciante;
 
 import java.util.Scanner;
 
-
 public class bee1067 {
 
     public static void main(String[] args) {
